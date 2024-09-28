@@ -61,7 +61,7 @@ function App() {
             return (
               <li key={index} style={{'list-style': 'none', padding: 10}}>
                 <div style={{backgroundColor:getBackgroundColor(task.priority), padding: '0px 12px', borderRadius: 12}}>
-                  <span>task: {task.task} priority: {task.priority} </span>
+                  <span><strong>task:</strong> {task.task} <strong>priority:</strong> {task.priority} </span>
                   <button onClick={() => { dispatch(removeTask(task.task)) }} style={{position: 'relative', left: '12px'}}>Remove</button>
                 </div>
               </li>
