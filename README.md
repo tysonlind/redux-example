@@ -11,4 +11,4 @@ or removed using a remove button.
 
 ### Please let me know if you found this example useful! Thanks, and happy coding!
 
-![image](https://github.com/user-attachments/assets/06cf0dd1-4135-49bd-9d59-7b20812ac8d8)
+![image](https://github.com/user-attachments/assets/de134b52-24ec-4599-b60d-2e868ced1f51)
