@@ -10,3 +10,5 @@ or removed using a remove button.
 4. Use the <code>npm run dev</code> command to run the application.
 
 ### Please let me know if you found this example useful! Thanks, and happy coding!
+
+![image](https://github.com/user-attachments/assets/06cf0dd1-4135-49bd-9d59-7b20812ac8d8)
