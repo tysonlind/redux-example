@@ -25,23 +25,6 @@ function App() {
     }
   };
 
-  useEffect(() => {
-    switch (priority) {
-      case 'low':
-        setTaskBgColor('rgba(0,255,0,0.1)');
-        break;
-      case 'medium':
-        setTaskBgColor('rgba(255,255,0,0.1)');
-        break;
-      case 'high':
-        setTaskBgColor('rgba(255,0,0,0.1)');
-        break;
-      default:
-        setTaskBgColor('rgba(0,255,0,0.1)');
-    }
-  
-  },[priority])
-
   return (
     <>
       <div>
