@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux';
-import { addTask, removeTask } from './redux/taskservice/taskSlice.js'
+import { addTask, removeTask } from './redux/taskService/taskSlice.js'
 import './App.css'
 
 
