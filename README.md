@@ -11,7 +11,7 @@ or removed using a remove button.
 
 ## Understanding the components of Redux
 1. There is a store.js file which will contain your state configuration. This object will have a key called "reducer", which will contain your difference "slices", organized by key names.
-2. Your slice files (i.e. firstSlice.js) will contain your initial state for each slice (similar to useState) along with a list of reducers, which are essentially actions that you can use to modify the state in some way. All of these will be exported and used in your React components.
+2. Your slice files (i.e. taskSlice.js) will contain your initial state for each slice (similar to useState) along with a list of reducers, which are essentially actions that you can use to modify the state in some way. All of these will be exported and used in your React components. Note that the name given to your slice in this file will need to correspond with the key given for that reducer in your store.js config file.
 3. A provider will be wrapped around your main.jsx file with a singular prop that is passed to it. This prop will be the exported "store" from your store.js file. The Provider comes from the react-redux library.
 4. In your components (i.e. App.jsx) you will need to import the actions (functions) defined in your slice's reducers array that you plan to use in that component. You will also want to import "useDispatch" for handling the reducer functions and "useSelector" for selecting the state that you want to have access to within that component.
 5. That's all there is to it! Please let me know if you have any questions or need an update to this guide!
