@@ -10,7 +10,6 @@ function App() {
   const [task, setTask] = useState('');
   const [error, setError] = useState('');
   const [priority, setPriority] = useState('low');
-  const [taskBgColor, setTaskBgColor] = useState('rgba(0,255,0,0)');
 
   const tasks = useSelector(state => state.first.tasks);
   const dispatch = useDispatch();
@@ -19,13 +18,10 @@ function App() {
     switch (priority) {
       case 'low':
         return 'rgba(0,255,0,0.1)';
-        break;
       case 'medium':
         return 'rgba(255,255,0,0.1)';
-        break;
       case 'high':
         return 'rgba(255,0,0,0.1)';
-        break;
       default:
         return 'rgba(0,255,0,0.1)';
     }
