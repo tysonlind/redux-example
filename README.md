@@ -1,4 +1,4 @@
-## Simple Redux Example
+# Simple Redux Example
 
 #### In this example, I show how to implement simple redux storage using a single slice, store, provider, and two reducers. The state created and managed by the reducers is then used to set and modify a series of to-do items with different priorities which automatically renders a highlighted background based on the level of priority. Tasks can be added using a form
 or removed using a remove button.
